@@ -1,0 +1,8 @@
+.rl-row-default {
+    width: 100%;
+}
+
+.rl-row-default > .rl-col-default {
+    display: inline-block;
+
+}

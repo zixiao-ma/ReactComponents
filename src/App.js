@@ -1,10 +1,12 @@
 import React from "react";
+import Layout from "./views/layout/layout";
 
-export default function App(){
+export default function App() {
 
     return (
         <div>
-            <h1>App</h1>
+            {/* layout布局*/}
+            <Layout/>
         </div>
     )
 }
