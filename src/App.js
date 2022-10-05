@@ -1,12 +1,15 @@
 import React from "react";
-import Layout from "./views/layout/layout";
 
+const Layout = React.lazy(() => import(/* webpackChunkName: "layout" */ "./views/layout/layout"));
+const Button = React.lazy(() => import(/* webpackChunkName: "layout" */ "./views/button/button"));
 export default function App() {
 
     return (
         <div>
-            {/* layout布局*/}
-            <Layout/>
+            {/* layout布局示例*/}
+            {/*    <Layout/>*/}
+            {/* button按钮示例 */}
+            <Button/>
         </div>
     )
 }

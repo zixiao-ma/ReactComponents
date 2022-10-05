@@ -43,6 +43,10 @@ a {
     -webkit-backface-visibility: hidden;
 }
 
+p {
+    line-height: 40px;
+}
+
 a:focus {
     outline: none;
 }
